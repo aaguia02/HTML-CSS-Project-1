@@ -24,6 +24,10 @@ body {
 header {
   background-color: lightcoral;
 }
+h1 {
+    font-family: 'Lato', sans-serif;
+}
+
 main {
   background-color: lightblue;
   /* Make main element take up any surplus space */ 
