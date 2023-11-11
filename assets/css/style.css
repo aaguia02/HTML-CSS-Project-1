@@ -11,7 +11,7 @@
   padding: 0;
   box-sizing: border-box;
 }
-    
+
 /* Generic Project Styles */
 body {
   min-height: 100vh;
@@ -93,7 +93,7 @@ main {
   background-color: lightblue;
   /* Make main element take up any surplus space */
   flex: 1 0 auto;
-  margin-top: 47px;
+  margin-top: 82px;
 }
 
 footer {
