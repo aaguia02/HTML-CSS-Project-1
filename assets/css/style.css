@@ -43,14 +43,14 @@ header a {
 h1 {
   font-family: "Lato", sans-serif;
   text-transform: uppercase;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   color: #252525;
 }
 
 /* Nav Menu */
 #menu {
   font-size: 110%;
-  letter-spacing: 3px;
+  letter-spacing: 2px;
   list-style-type: none;
 }
 
@@ -84,7 +84,7 @@ nav {
 }
 
 .nav-toggle-label {
-  font-size: 2rem;
+  font-size: 4rem;
 }
 
 /* Main Content */
@@ -93,9 +93,73 @@ main {
   background-color: lightblue;
   /* Make main element take up any surplus space */
   flex: 1 0 auto;
-  margin-top: 82px;
+  margin-top: 91px;
 }
 
-footer {
-  background-color: lightgreen;
+/* Hero section */
+#hero {
+  height: 600px;
+  width: 100%;
+  background: url("assets\images\star-trek-wallpaper.jpg") no-repeat center center/cover;
+}
+
+/* footer */
+#pfooter {
+  font-size: 10px;
+  text-align: center;
+}
+#social-networks {
+  text-align: center;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+}
+#social-networks i {
+  font-size: 160%;
+  padding: 5%;
+  color: #242a28;
+}
+
+/* Media query: tablets and larger (768px and up) */
+@media screen and (min-width: 768px) {
+  /* Header */
+  nav {
+    display: block;
+    position: relative;
+    box-shadow: none;
+    width: fit-content;
+    padding-right: 1rem;
+  }
+
+  #menu {
+    display: flex;
+  }
+
+  #menu > li {
+    padding-left: 1rem;
+  }
+
+  .nav-toggle-label {
+    display: none;
+  }
+
+  #logo {
+    font-size: 280%;
+    line-height: 75px;
+    margin: 0 0.5rem;
+  }
+
+  /* Main content */
+  main {
+    /* Push main content down to accommodate larger header */
+    margin-top: 94px;
+  }
+}
+
+/* Large devices (laptops and desktops, 992px and up) */
+@media screen and (min-width: 992px) {
+  #menu a:hover {
+    border-bottom: 1px solid #3a3a3a;
+  }
 }
