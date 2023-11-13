@@ -127,30 +127,14 @@ main {
 }
 
 /* Sign-in and Sign-up Page*/
+.signin {
+  padding-bottom: 0%;
+}
 
-#container2 {
-  text-align: center;
-  padding: 10;
-  display: flex;
-  justify-content: space-evenly;
-  
-  }
-
-  #signin {
-    color: rgb(27, 23, 23);
-    background-color: rgb(207, 244, 251);
-    border: rgba(37, 28, 28, 0.355) solid;
-    margin: 2px;
-    padding: 3px;
-    align-content: center;
-    overflow: hidden;
-    text-align: center;
-  }
-
-  #or {
+#or {
     color: rgb(27, 23, 23);
     margin: 2px;
-    padding: 3px;
+    padding: 0px;
     font-size: 20px;
     align-content: center;
     overflow: hidden;
@@ -162,10 +146,11 @@ main {
     background-color: rgb(207, 244, 251);
     border: rgba(215, 206, 206, 0.355) solid;
     margin: 2px;
-    padding: 3px;
+    padding-bottom: 0px;
     align-content: center;
     overflow: hidden;
     text-align: center;
+    font-weight: 600;
   }
 
   button#toggle-password {
@@ -197,10 +182,86 @@ main {
     background-color: rgb(29, 4, 4);
     border: rgba(28, 37, 31, 0.355) solid;
     margin: 5px;
+    width: 50px;
     padding: 5px;
     align-content: center;
     overflow: hidden;
     text-align: center;
+  }
+
+
+/* Registration Form */
+  body {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    background-color: rgb(207, 244, 251);
+    color: rgb(27, 23, 23);
+    font-family: Tahoma;
+    font-size: 16px;
+  }
+  
+  h1, p {
+    margin: 1em auto;
+    text-align: center;
+  }
+  
+  form {
+    width: 60vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding-bottom: 2em;
+  }
+  
+  fieldset {
+    border: none;
+    padding: 2rem 0;
+    border-bottom: 3px solid #3b3b4f;
+  }
+  
+  fieldset:last-of-type {
+    border-bottom: none;
+  }
+  
+  label {
+    display: block;
+    margin: 0.5rem 0;
+  }
+  
+  input,
+  textarea,
+  select {
+    margin: 10px 0 0 0;
+    width: 100%;
+    min-height: 2em;
+  }
+  
+  input, textarea {
+    background-color: #d1d1d3;
+    border: 1px solid #0a0a23;
+    color: #767070;
+  }
+  
+  .inline {
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+  }
+  
+  input[type="submit"] {
+    display: block;
+    width: 60%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    background-color: #3b3b4f;
+    border-color: white;
+    min-width: 300px;
+  }
+  
+  input[type="file"] {
+    padding: 1px 2px;
   }
 
 /* footer */
