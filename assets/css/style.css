@@ -126,11 +126,88 @@ main {
   
 }
 
+/* Sign-in and Sign-up Page*/
+
+#container2 {
+  text-align: center;
+  padding: 10;
+  display: flex;
+  justify-content: space-evenly;
+  
+  }
+
+  #signin {
+    color: rgb(27, 23, 23);
+    background-color: rgb(207, 244, 251);
+    border: rgba(37, 28, 28, 0.355) solid;
+    margin: 2px;
+    padding: 3px;
+    align-content: center;
+    overflow: hidden;
+    text-align: center;
+  }
+
+  #or {
+    color: rgb(27, 23, 23);
+    margin: 2px;
+    padding: 3px;
+    font-size: 20px;
+    align-content: center;
+    overflow: hidden;
+    text-align: center;
+  }
+
+  #signupin {
+    color: rgb(27, 23, 23);
+    background-color: rgb(207, 244, 251);
+    border: rgba(215, 206, 206, 0.355) solid;
+    margin: 2px;
+    padding: 3px;
+    align-content: center;
+    overflow: hidden;
+    text-align: center;
+  }
+
+  button#toggle-password {
+    background: none;
+    border: none;
+    cursor: pointer;
+    /* Media query isn't shown here. */
+    font-size: var(--mobile-font-size);
+    font-weight: 300;
+    padding: 0;
+    /* Display at the top right of the container */
+    position: absolute;
+    }
+
+    #password-reset {
+      font-size:xx-small;
+      color: rgb(27, 23, 23);
+      background-color: rgb(207, 244, 251);
+      border: rgba(215, 206, 206, 0.355) solid;
+      margin: 2px;
+      padding: 3px;
+      align-content: center;
+      overflow: hidden;
+      text-align: center;
+    }
+
+  .submit {
+    color: rgb(232, 231, 231);
+    background-color: rgb(29, 4, 4);
+    border: rgba(28, 37, 31, 0.355) solid;
+    margin: 5px;
+    padding: 5px;
+    align-content: center;
+    overflow: hidden;
+    text-align: center;
+  }
+
 /* footer */
 footer {
   background-color: blanchedalmond
-  width:100%;
-  
+  width: 100%;
+  margin-top: auto;
 }
 #pfooter {
   font-size: 10px;
