@@ -147,6 +147,7 @@ main {
     align-content: center;
     overflow: hidden;
     text-align: center;
+    display: block;
   }
 
   #signupin {
@@ -216,7 +217,7 @@ p {
   fieldset {
     border: none;
     padding: 2rem 0;
-    border-bottom: 3px solid #3b3b4f;
+    width: 100%;
   }
   
   fieldset:last-of-type {
