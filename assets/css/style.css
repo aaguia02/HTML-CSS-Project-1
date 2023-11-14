@@ -240,7 +240,7 @@ p {
     min-height: 2em;
   }
   
-  input, textarea {
+  #referrer, input, textarea {
     background-color: #d1d1d3;
     border: 1px solid #0a0a23;
     color: #0e0404;
@@ -266,6 +266,7 @@ p {
   input[type="file"] {
     padding: 1px 2px;
   }
+
 
 /* T&C and Privacy Policy */
 
