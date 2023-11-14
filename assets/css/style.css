@@ -199,10 +199,6 @@ main {
 
 
 /* Registration Form */
-.list {
-  list-style-type: "§  " !important;
-  font-size: 13px;
-}
 
 p {
     margin: 1em auto;
@@ -258,7 +254,8 @@ p {
     margin: 1em auto;
     height: 2em;
     font-size: 1.1rem;
-    background-color: #3b3b4f;
+    font-weight: 600;
+    background-color: #82828d;
     border-color: white;
     min-width: 300px;
   }
@@ -269,6 +266,10 @@ p {
 
 
 /* T&C and Privacy Policy */
+.list {
+  list-style-type: "§  " !important;
+  font-size: 14px;
+}
 
 #termsandprivacy {
   padding: 40px;
@@ -294,7 +295,7 @@ p {
 #termsandprivacy p {
   font-family: "Lato", sans-serif;
   color: rgb(27, 23, 23);
-  lign-content: left;
+  align-content: left;
   overflow: hidden;
   text-align: left;
 }
