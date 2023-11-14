@@ -14,9 +14,12 @@ body {
   width: 100%;
   flex-direction: column;
   /* Generic Project Styles */
-  color: #333553;
+  color: rgb(27, 23, 23);
+  font-weight: 600;
   font-family: "Roboto Slab", sans-serif;
+  background-color: rgb(207, 244, 251);
 }
+
 
 header {
   background-color: blanchedalmond;
@@ -32,14 +35,18 @@ header {
 
 header a {
   text-decoration: none;
-  color: rgb(43, 1, 74);
+  color: rgb(27, 23, 23);
+  ;
 }
 
 h1 {
   font-family: "Lato", sans-serif;
   text-transform: uppercase;
   letter-spacing: 1px;
-  color: rgb(43, 1, 74);
+  color: rgb(27, 23, 23);
+  text-align: center;
+  font-size: 30px;
+  margin-top: 0%;
 }
 
 /* Nav Menu */
@@ -93,8 +100,7 @@ main {
 
 /* Hero section */
 #hero {
-  background: url("../images/JHGY.gif") no-repeat center
-    center/cover;
+  background: url("../images/JHGY.gif") no-repeat center center/cover;
   height: 350px;
   width: 100%;
 }
@@ -122,13 +128,15 @@ main {
   padding: 20px;
   font-family: "Lato", sans-serif;
   letter-spacing: 1px;
-  color: rgb(43, 1, 74);
+  color: rgb(27, 23, 23);
+
   
 }
 
 /* Sign-in and Sign-up Page*/
+
 .signin {
-  padding-bottom: 0%;
+  padding: 0%;
 }
 
 #or {
@@ -191,17 +199,12 @@ main {
 
 
 /* Registration Form */
-  body {
-    width: 100%;
-    height: 100vh;
-    margin: 0;
-    background-color: rgb(207, 244, 251);
-    color: rgb(27, 23, 23);
-    font-family: Tahoma;
-    font-size: 16px;
-  }
-  
-  h1, p {
+.list {
+  list-style-type: "§  " !important;
+  font-size: 13px;
+}
+
+p {
     margin: 1em auto;
     text-align: center;
   }
@@ -210,7 +213,7 @@ main {
     width: 60vw;
     max-width: 500px;
     min-width: 300px;
-    margin: 0 auto;
+    margin: auto;
     padding-bottom: 2em;
   }
   
@@ -240,7 +243,7 @@ main {
   input, textarea {
     background-color: #d1d1d3;
     border: 1px solid #0a0a23;
-    color: #767070;
+    color: #0e0404;
   }
   
   .inline {
@@ -264,16 +267,49 @@ main {
     padding: 1px 2px;
   }
 
+/* T&C and Privacy Policy */
+
+#termsandprivacy {
+  padding: 40px;
+  font-family: "Lato", sans-serif;
+  color: rgb(27, 23, 23);
+  align-content: left;
+  overflow: hidden;
+  text-align: left;
+  list-style-type: none;
+}
+
+#termsandprivacy > h2 {
+  font-family: "Lato", sans-serif;
+  letter-spacing: 1px;
+  color: rgb(27, 23, 23);
+  font-weight: 600;
+  align-content: left;
+  overflow: hidden;
+  text-align: left;
+  list-style-type: none;
+}
+
+#termsandprivacy p {
+  font-family: "Lato", sans-serif;
+  color: rgb(27, 23, 23);
+  lign-content: left;
+  overflow: hidden;
+  text-align: left;
+}
+
+  
 /* footer */
 footer {
-  background-color: blanchedalmond
+  background-color: blanchedalmond;
   width: 100%;
   margin-top: auto;
 }
 #pfooter {
-  font-size: 10px;
+  font-size: 15px;
   text-align: center;
-  background-color: blanchedalmond
+  background-color: blanchedalmond;
+  padding: 15px;
 }
 #social-networks {
   text-align: center;
@@ -287,6 +323,7 @@ footer {
   font-size: 160%;
   padding: 5%;
   color: #242a28;
+  background-color: blanchedalmond;
 }
 
 /* Media query: tablets and larger (768px and up) */
@@ -317,7 +354,6 @@ footer {
     line-height: 75px;
     margin: 0 0.5rem;
   }
-
   /* Main content */
   main {
     /* Push main content down to accommodate larger header */
