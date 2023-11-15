@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Generic Project Styles */
+body {
+    background: url("/test/alien landing.gif") no-repeat center center/cover;
+    min-height: 100vh;
+    display: flex;
+    width: 100%;
+    height: fit-content;
+    /* Generic Project Styles */
+    color: rgb(27, 23, 23);
+    font-weight: 600;
+    font-family: "Roboto Slab", sans-serif;
+    background-color:none;
+}
+
+audio{
+  opacity: 10%;
+  display:absolute;
+  justify-content: center;
+  bottom:0%;
+  right:0%
+}
+
+audio:hover{
+  opacity: 100%;
+}
+
+
+/* Foreground Text*/
+#image-text {
+  width: 100%;
+  height: -100%;
+  top: 15%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+  font-weight: 00;
+  color: #da7b93;
+  text-shadow: 10px 10px 40px #000000;
+  text-align: center;
+  display: flexbox;
+  padding: 0 1rem;
+  position: fixed;
+  z-index: 99;
+  align-items: baseline;
+}
+a {
+    text-decoration: none;
+}  

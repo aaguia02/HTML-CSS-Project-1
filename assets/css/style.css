@@ -16,12 +16,13 @@ body {
   color: rgb(27, 23, 23);
   font-weight: 600;
   font-family: "Roboto Slab", sans-serif;
-  background-color: rgb(207, 244, 251);
+  background-color: #d9b08c;
 }
 
 header {
-  background-color: blanchedalmond;
+  background-color: #116466;
   padding: 0 1rem;
+  color: #D1E8E2;
   position: fixed;
   z-index: 99;
   width: 100%;
@@ -33,7 +34,7 @@ header {
 
 header a {
   text-decoration: none;
-  color: rgb(27, 23, 23);
+  color: #D1E8E2;
 }
 
 h1 {
@@ -64,8 +65,9 @@ h1 {
 /* Navbar styles with dropdown toggle */
 nav {
   position: absolute;
-  background-color: blanchedalmond;
+  background-color: #116466);
   width: 100%;
+  color: #d1E8E2;
   left: 0;
   padding: 0 1rem;
   box-shadow: 0 2px 2px #177bc2;
@@ -131,6 +133,7 @@ main {
 
 .signin {
   padding: 0%;
+  margin-bottom: 0;
 }
 
 #or {
@@ -146,8 +149,7 @@ main {
 
 #signupin {
   color: rgb(27, 23, 23);
-  background-color: rgb(207, 244, 251);
-  border: rgba(215, 206, 206, 0.355) solid;
+  background-color: #d9b08c;
   margin: 2px;
   padding-bottom: 0px;
   align-content: center;
@@ -171,19 +173,29 @@ button#toggle-password {
 #password-reset {
   font-size: xx-small;
   color: rgb(27, 23, 23);
-  background-color: rgb(207, 244, 251);
+  background-color: gray;
   border: rgba(215, 206, 206, 0.355) solid;
   margin: 2px;
   padding: 3px;
   align-content: center;
   overflow: hidden;
   text-align: center;
+  text-decoration: none;
+}
+
+#registerhere {
+  max-width: 294px;
+  min-width: 280px;
+}
+
+a {
+  text-decoration: none;
 }
 
 .submit {
   color: rgb(232, 231, 231);
   background-color: rgb(29, 4, 4);
-  border: rgba(28, 37, 31, 0.355) solid;
+  border: rgba(28, 37, 31, 0.355) 1 px solid;
   margin: 5px;
   width: 50px;
   padding: 5px;
@@ -204,17 +216,22 @@ form {
   max-width: 500px;
   min-width: 300px;
   margin: auto;
-  padding-bottom: 2em;
+  padding-bottom: 0;
 }
 
 fieldset {
   border: none;
-  padding: 2rem 0;
+  padding: 8px;
   width: 100%;
 }
 
 fieldset:last-of-type {
   border-bottom: none;
+}
+
+#fieldset2 {
+  padding: 0 5px;
+  width: 100%;
 }
 
 label {
@@ -304,31 +321,47 @@ input[type="file"] {
   transition: all 0.3s ease-in-out;
 }
 
-/* footer */
+/*  Contact Me Page*/
+
+#termsandprivacy {
+  width: 60vw;
+  max-width: 700px;
+  min-width: 300px;
+  margin: auto;
+  padding-bottom: 2em;
+}
+
+.contactme3 {
+  padding: 0%;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
 footer {
-  background-color: blanchedalmond;
+  background-color: #116466;
   width: 100%;
-  margin-top: auto;
+  height: 100%;
 }
 #pfooter {
   font-size: 15px;
   text-align: center;
-  background-color: blanchedalmond;
-  padding: 15px;
+  background-color: #116466;
+  padding: 0;
+  color: #D1E8E2;
+  height: 100%;
 }
 #social-networks {
   text-align: center;
-  padding: 20px 0;
+  padding: 5px;
   display: flex;
   justify-content: space-evenly;
   list-style-type: none;
-  background-color: blanchedalmond;
+  background-color: #116466;
 }
 #social-networks i {
   font-size: 160%;
   padding: 5%;
-  color: #242a28;
-  background-color: blanchedalmond;
+  color: color: #D1E8E2;
+  background-color: #116466;
 }
 
 /* Media query: large and landscape phones (576px and up) */
@@ -340,53 +373,53 @@ footer {
   }
 }
 
-  /* Media query: tablets and larger (768px and up) */
-  @media screen and (min-width: 768px) {
-    /* Header */
-    nav {
-      display: block;
-      position: relative;
-      box-shadow: none;
-      width: fit-content;
-      padding-right: 1rem;
-    }
-
-    #menu {
-      display: flex;
-    }
-
-    #menu > li {
-      padding-left: 1rem;
-    }
-
-    .nav-toggle-label {
-      display: none;
-    }
-
-    #logo {
-      font-size: 280%;
-      line-height: 75px;
-      margin: 0 0.5rem;
-    }
-    /* Main content */
-    main {
-      /* Push main content down to accommodate larger header */
-      margin-top: 94px;
-    }
-    /* Gallery*/
-    #photos {
-      column-count: 3;
-    }
+/* Media query: tablets and larger (768px and up) */
+@media screen and (min-width: 768px) {
+  /* Header */
+  nav {
+    display: block;
+    position: relative;
+    box-shadow: none;
+    width: fit-content;
+    padding-right: 1rem;
   }
 
-
-  /* Large devices (laptops and desktops, 992px and up) */
-  @media screen and (min-width: 992px) {
-    #menu a:hover {
-      border-bottom: 1px solid #3a3a3a;
-    }
-    /* Gallery */
-    #photos {
-      column-count: 4;
-    }
+  #menu {
+    display: flex;
   }
+
+  #menu > li {
+    padding-left: 1rem;
+  }
+
+  .nav-toggle-label {
+    display: none;
+  }
+
+  #logo {
+    font-size: 280%;
+    line-height: 75px;
+    margin: 0 0.5rem;
+    color: #D1E8E2;
+  }
+  /* Main content */
+  main {
+    /* Push main content down to accommodate larger header */
+    margin-top: 94px;
+  }
+  /* Gallery*/
+  #photos {
+    column-count: 3;
+  }
+}
+
+/* Large devices (laptops and desktops, 992px and up) */
+@media screen and (min-width: 992px) {
+  #menu a:hover {
+    border-bottom: 1px solid #3a3a3a;
+  }
+  /* Gallery */
+  #photos {
+    column-count: 4;
+  }
+}
