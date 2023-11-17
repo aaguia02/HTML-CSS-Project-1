@@ -1,35 +1,35 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  /* Generic Project Styles */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Generic Project Styles */
 body {
-    background: url("/test/alien landing.gif") no-repeat center center/cover;
-    min-height: 100vh;
-    display: flex;
-    width: 100%;
-    height: fit-content;
-    /* Generic Project Styles */
-    color: rgb(27, 23, 23);
-    font-weight: 600;
-    font-family: "Roboto Slab", sans-serif;
-    background-color:none;
+  background: url("../assets/images/alien landing.gif") no-repeat center
+    center/cover;
+  min-height: 100vh;
+  display: flex;
+  width: 100%;
+  height: fit-content;
+  /* Generic Project Styles */
+  color: rgb(27, 23, 23);
+  font-weight: 600;
+  font-family: "Roboto Slab", sans-serif;
+  background-color: none;
 }
 
-audio{
+audio {
   opacity: 10%;
-  display:absolute;
+  display: absolute;
   justify-content: center;
-  bottom:0%;
-  right:0%
+  bottom: 0%;
+  right: 0%;
 }
 
-audio:hover{
+audio:hover {
   opacity: 100%;
 }
-
 
 /* Foreground Text*/
 #image-text {
@@ -50,5 +50,5 @@ audio:hover{
   align-items: baseline;
 }
 a {
-    text-decoration: none;
-}  
+  text-decoration: none;
+}
