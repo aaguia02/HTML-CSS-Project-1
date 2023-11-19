@@ -1,152 +1,134 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Meta tags for search engines -->
-    <meta
-      name="description"
-      content="website for fans of science fiction, sci-fi, hobby, London, "
-    />
+    <meta name="description"
+          content="website for fans of science fiction, sci-fi, hobby, London, " />
     <meta name="keywords" content="science fiction, sci-fi, hobby, London" />
     <!-- Title -->
     <title>Sign-In</title>
     <!-- Favicon -->
-    <link
-      rel="shortcut icon"
-      href="assets\images\favicon\favicon.png"
-      type="image/x-icon"
-    />
+    <link rel="shortcut icon"
+          href="assets\images\favicon\favicon.png"
+          type="image/x-icon" />
     <!-- Stylesheet  -->
     <link rel="stylesheet" href="assets/css/style.css" />
-  </head>
+</head>
 
-  <body>
+<body>
     <!-- Header and Nav -->
     <header>
-      <a href="index.html">
-        <h1 id="logo">Sci-fi Space</h1>
-      </a>
-      <input type="checkbox" id="nav-toggle" name="nav-toggle" /><label
-        for="nav-toggle"
-        class="nav-toggle-label"
-        ><i class="fa-solid fa-bars"></i
-      ></label>
-      <nav>
-        <ul id="menu">
-          <li><a href="index.html" class="active">Home</a></li>
-          <li>
-            <a href="trivia.html">Trivia</a>
-          </li>
-          <li>
-            <a href="gallery.html">Gallery</a>
-          </li>
-          <li>
-            <a href="signin.html">Sign-in</a>
-          </li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-      </nav>
+        <a href="index.html">
+            <h1 id="logo">Sci-fi Space</h1>
+        </a>
+        <input type="checkbox" id="nav-toggle" name="nav-toggle" /><label for="nav-toggle"
+                                                                          class="nav-toggle-label">
+            <i class="fa-solid fa-bars"></i>
+        </label>
+        <nav>
+            <ul id="menu">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li>
+                    <a href="trivia.html">Trivia</a>
+                </li>
+                <li>
+                    <a href="gallery.html">Gallery</a>
+                </li>
+                <li>
+                    <a href="signin.html">Sign-in</a>
+                </li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
     </header>
 
     <!-- Main Content -->
     <main>
-      <section id="hero"></section>
+        <section id="hero"></section>
 
-      <section id="signupin">
-        <form
-          action="https://formdump.codeinstitute.net"
-          id="signin-form"
-          method="post"
-        >
-          <fieldset class="signin">
-            <h1>Sign-in</h1>
-            <label for="email">Email:</label>
-            <input
-              type="email"
-              name="email signin"
-              id="email_signin"
-              required
-              class="text-input"
-            />
-            <label for="password">Password:</label>
-            <input
-              type="password"
-              id="password"
-              name="password"
-              autocomplete="current-password"
-              required
-              class="text-input"
-            /><button
-              id="toggle-password"
-              type="button"
-              aria-label="Show password as plain text. Warning: this will display your password on the screen."
-            ></button>
-            <a href="https://formdump.codeinstitute.net/api" id="password-reset"
-              >Password Reset?</a
-            >
-            <input type="submit" value="Sign-in" class="submit" />
-          </fieldset>
-        </form>
-        <p id="or">Or</p>
-        <fieldset class="signin">
-          <a href="registration-form.html" target="_blank"
-            ><input
-              id="registerhere"
-              type="submit"
-              value="Register Here"
-              class="submit"
-          /></a>
-        </fieldset>
-      </section>
+        <section id="signupin">
+            <form action="https://formdump.codeinstitute.net"
+                  id="signin-form"
+                  method="post">
+                <fieldset class="signin">
+                    <h1>Sign-in</h1>
+                    <label for="email">Email:</label>
+                    <input type="email"
+                           name="email signin"
+                           id="email_signin"
+                           required
+                           class="text-input" />
+                    <label for="password">Password:</label>
+                    <input type="password"
+                           id="password"
+                           name="password"
+                           autocomplete="current-password"
+                           required
+                           class="text-input" />
+                    <button id="toggle-password"
+                            type="button"
+                            aria-label="Show password as plain text. Warning: this will display your password on the screen.">
+                        X
+                    </button>
+
+                    <a href="https://formdump.codeinstitute.net/api" id="password-reset">Password Reset?</a>
+                    <input type="submit" value="Sign-in" class="submit" />
+                </fieldset>
+            </form>
+            <p id="or">Or</p>
+            <fieldset class="signin">
+                <a href="registration-form.html">
+                    <input id="registerhere"
+                           type="submit"
+                           value="Register Here"
+                           class="submit" />
+                </a>
+            </fieldset>
+        </section>
     </main>
 
     <!-- Footer -->
     <footer>
-      <ul id="social-networks">
-        <li>
-          <a
-            href="https://www.facebook.com"
-            target="_blank"
-            rel="noopener"
-            aria-label="Visit our Facebook page (opens in new tab)"
-            ><i class="fa-brands fa-facebook"></i
-          ></a>
-        </li>
-        <li>
-          <a
-            href="https://www.twitter.com"
-            target="_blank"
-            rel="noopener"
-            aria-label="Visit our Twitter page (opens in new tab)"
-            ><i class="fa-brands fa-twitter"></i
-          ></a>
-        </li>
-        <li>
-          <a
-            href="https://www.linkedin.com"
-            target="_blank"
-            rel="noopener"
-            aria-label="Visit our Linkedin page (opens in new tab)"
-            ><i class="fa-brands fa-linkedin-in"></i
-          ></a>
-        </li>
-        <li>
-          <a
-            href="https://www.Instagram.com"
-            target="_blank"
-            rel="noopener"
-            aria-label="Visit our Instagram page (opens in new tab)"
-            ><i class="fa-brands fa-instagram"></i
-          ></a>
-        </li>
-      </ul>
-      <p id="pfooter">© All Rights Reserved 2023. Made in London, UK</p>
+        <ul id="social-networks">
+            <li>
+                <a href="https://www.facebook.com"
+                   target="_blank"
+                   rel="noopener"
+                   aria-label="Visit our Facebook page (opens in new tab)">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.twitter.com"
+                   target="_blank"
+                   rel="noopener"
+                   aria-label="Visit our Twitter page (opens in new tab)">
+                    <i class="fa-brands fa-twitter"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com"
+                   target="_blank"
+                   rel="noopener"
+                   aria-label="Visit our Linkedin page (opens in new tab)">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.Instagram.com"
+                   target="_blank"
+                   rel="noopener"
+                   aria-label="Visit our Instagram page (opens in new tab)">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+            </li>
+        </ul>
+        <p id="pfooter">© All Rights Reserved 2023. Made in London, UK</p>
     </footer>
     <!-- Font Awesome -->
-    <script
-      src="https://kit.fontawesome.com/79bb26ca76.js"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+    <script src="https://kit.fontawesome.com/79bb26ca76.js"
+            crossorigin="anonymous"></script>
+</body>
 </html>
