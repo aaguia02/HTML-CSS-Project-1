@@ -29,7 +29,7 @@ body {
 
 /* Generic Project Styles */
 .indexbody {
-    background: url("assets/images/alien landing.gif") no-repeat center center/cover;
+    background: url("../images/alien\ landing.gif") no-repeat center center/cover;
     min-height: 100vh;
     display: flex;
     width: 100%;
@@ -161,7 +161,7 @@ main {
 
 /* Hero section */
 #hero {
-    background: url("assets/images/JHGY.gif") no-repeat center center/cover;
+    background: url("../images/JHGY.gif") no-repeat center center/cover;
     height: 350px;
     width: 100%;
 }
