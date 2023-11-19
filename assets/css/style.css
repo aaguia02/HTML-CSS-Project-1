@@ -331,6 +331,95 @@ input[type="file"] {
     padding: 1px 2px;
 }
 
+/* Trivia Page */
+
+#table1 {
+    color: rgb(27, 23, 23);
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+    padding: 4rem 0;
+    font-family: candara, sans-serif;
+}
+
+table {
+    width: 100%;
+    max-width: 50rem;
+    tr: nth-child(even) th {
+    color: brown;
+    font-weight: normal;
+    }
+    th, td {
+    padding: 0.5rem;
+    }
+    th {
+    font-weight: normal;
+    border-top: thin solid black;
+    }
+    td {
+    font-size: 0.8rem;
+    font-weight: bold;
+    line-height: 1.4;
+    border-radius: 0.2rem;
+    transition: opacity 0.3s ease;
+    }
+    td > span {
+        font-size: 0.8em;
+        font-weight: normal;
+        display: block;
+        width: 100%;
+    }
+}
+
+.stage-earth {
+    background-color: #6fa07b;
+}
+
+.stage-mercury {
+    background-color: #9ccc65;
+}
+
+.stage-venus {
+    background-color: #a4edb6;
+}
+
+.stage-mars {
+    background-color: #b3e5fc;
+}
+
+.stage-jupiter {
+    background-color: #81d4fa;
+}
+
+.stage-saturn {
+    background-color: #26c6da;
+}
+
+.stage-moon {
+    background-color: #89c698;
+}
+
+.stage-comet {
+    background-color: #8eb6c9;
+}
+
+td,
+th {
+    border: 1px solid black;
+}
+
+.leftHeader {
+    font-weight: bold;
+    background-color: lightgray;
+}
+
+th {
+    background-color: lightgray;
+}
+
 /* T&C and Privacy Policy */
 .list {
     list-style-type: "§  " !important;
