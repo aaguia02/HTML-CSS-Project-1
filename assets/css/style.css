@@ -12,29 +12,20 @@ body {
     display: flex;
     width: 100%;
     flex-direction: column;
-    /* Generic Project Styles */
     color: rgb(27, 23, 23);
     font-weight: 600;
     font-family: "Cascadia Mono", sans-serif;
     background-color: #eceeed;
 }
 
-/* Audio and Foreground Text */
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-/* Generic Project Styles */
+/* Index Body */
 .indexbody {
     background: url("../images/alien\ landing.gif") no-repeat center center/cover;
     min-height: 100vh;
     display: flex;
     width: 100%;
     height: fit-content;
-    /* Generic Project Styles */
     color: rgb(27, 23, 23);
     font-weight: 600;
     font-family: "Roboto Slab", sans-serif;
@@ -54,7 +45,7 @@ audio {
         opacity: 100%;
     }
 
-/* Foreground Text*/
+/* Foreground Text */
 #image-text {
     width: 100%;
     height: -100%;
@@ -191,7 +182,6 @@ main {
 
 /* Sign-in and Sign-up Page*/
 
-
 #or {
     color: rgb(27, 23, 23);
     margin: 2px;
@@ -245,7 +235,6 @@ a {
 
 #contactsignin {
     color: #e8e7e7;
-    posit margin: 5px;
     width: 50px;
     padding: 5px;
     align-content: center;
