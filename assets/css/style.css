@@ -184,7 +184,8 @@ main {
 
 #or {
     color: rgb(27, 23, 23);
-    margin: 2px;
+    margin-left: auto;
+    margin-right: auto;
     padding: 0px;
     font-size: 20px;
     align-content: center;
