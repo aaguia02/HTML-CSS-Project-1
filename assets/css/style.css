@@ -41,9 +41,9 @@ audio {
     text-decoration: none;
 }
 
-    audio:hover {
-        opacity: 100%;
-    }
+audio:hover {
+    opacity: 100%;
+}
 
 /* Foreground Text */
 #image-text {
@@ -90,7 +90,7 @@ header {
         color: #eceeed;
     }
 
-h1 {
+h1, h2 {
     text-transform: uppercase;
     letter-spacing: 1px;
     color: rgb(27, 23, 23);
@@ -260,9 +260,14 @@ a {
 
 /* Registration Form */
 
-p {
+p, .contactme2 {
     margin: 1em auto;
-    text-align: center;
+    width: 60vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin: auto;
+    padding-bottom: 0;
+    text-align: left;
 }
 
 form {
@@ -333,33 +338,25 @@ input[type="file"] {
 
 /* Trivia Page */
 
-#table1 {
-    color: rgb(27, 23, 23);
-    font-weight: 600;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    min-height: 100vh;
-    padding: 4rem 0;
-    font-family: candara, sans-serif;
-}
 
-table {
+
+#table1 {
     width: 100%;
     max-width: 50rem;
-    tr: nth-child(even) th {
-    color: brown;
-    font-weight: normal;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom:15px;
+    
     }
-    th, td {
+   th, td {
     padding: 0.5rem;
+    border: 1px solid black;
     }
     th {
     font-weight: normal;
     border-top: thin solid black;
     }
-    td {
+    td{
     font-size: 0.8rem;
     font-weight: bold;
     line-height: 1.4;
@@ -406,10 +403,7 @@ table {
     background-color: #8eb6c9;
 }
 
-td,
-th {
-    border: 1px solid black;
-}
+
 
 .leftHeader {
     font-weight: bold;
@@ -424,6 +418,11 @@ th {
 .list {
     list-style-type: "§  " !important;
     font-size: 14px;
+    width: 60vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin: auto;
+    padding-bottom: 0;
 }
 
 #termsandprivacy {
@@ -444,7 +443,6 @@ th {
     }
 
     #termsandprivacy p {
-        align-content: left;
         overflow: hidden;
         text-align: left;
     }
