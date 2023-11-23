@@ -20,6 +20,28 @@ body {
   background-color: #eceeed;
 }
 
+h1,
+h2 {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: rgb(27, 23, 23);
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+p {
+    margin: auto;
+    padding: 0px 50px 5px 50px;
+    font-weight: 400;
+    font-size: small;
+    width: fit-content;
+    display: flex;
+    position: sticky;
+    align-items: baseline;
+    max-width: 40rem;
+}
+
 /*********************************************** Index Body */
 
 .indexbody {
@@ -70,45 +92,24 @@ a {
 /*************************************************** Header */
 
 header {
-    background-color: #116466;
-    padding: 0 1rem;
-    color: #eceeed;
-    position: fixed;
-    z-index: 99;
-    width: 100%;
-    box-shadow: 0 2px 2px #3a3a3a;
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
-    text-decoration: none;
-    }
+  background-color: #116466;
+  padding: 0 1rem;
+  color: #eceeed;
+  position: fixed;
+  z-index: 99;
+  width: 100%;
+  box-shadow: 0 2px 2px #3a3a3a;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  text-decoration: none;
+}
 
 header a {
   text-decoration: none;
   color: #eceeed;
 }
 
-h1,
-h2 {
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  color: rgb(27, 23, 23);
-  text-align: center;
-  margin-top: 2%;
-  margin-bottom: 0;
-}
-
-p {
-    margin: auto;
-    padding: 0px 50px 5px 50px;
-    font-weight: 400;
-    font-size: small;
-    width: fit-content;
-    display: flex;
-    position: sticky;
-    align-items: baseline;
-    max-width: 40rem;
-}
 
 /*********************************************** Nav Menu */
 
@@ -353,7 +354,7 @@ input[type="file"] {
 /******************************************** Trivia Page */
 
 table {
-  display: flex;
+  display: table;
   position: sticky;
 }
 
@@ -518,14 +519,14 @@ footer {
 }
 
 
-/* Extra small devices (phones, 576px and down) */
-@media only screen and (max-width: 576px) {
-  
+/* Extra small devices (phones, 576px and down) 
+@media screen and (max-width: 576px) {
+  */
 
 
 /*********** Media query: tablets and landscape phones (576px and up) */
 
-@media only screen and (min-width: 576px) {
+@media screen and (min-width: 576px) {
   nav {
     display: block;
     position: relative;
@@ -570,7 +571,7 @@ footer {
 
     /****************** Media query: tablets and larger (768px and up) */
 
-@media only screen and (min-width: 768px) {
+@media screen and (min-width: 768px) {
         /******************** Header */
   header {
     background-color: #116466;
