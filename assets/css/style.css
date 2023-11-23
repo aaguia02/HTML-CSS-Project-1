@@ -96,7 +96,9 @@ a {
 
 header {
   background-color: #116466;
-  padding: 0 1rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  padding-bottom: 1.75em;
   color: #eceeed;
   position: fixed;
   z-index: 99;
@@ -130,7 +132,52 @@ header a {
   border-bottom: 4px solid #3a3a3a;
 }
 
-/************************** Navbar styles with dropdown toggle */
+/*********************************************** Nav Sub-menu dropdown  */
+
+.sub-menu {
+  list-style-type: none;
+}
+
+.dropbtn {
+  margin-right: 15px;
+  padding: 8px 10px;
+}
+
+.dropdown {
+  position: relative;
+  display: flex;
+  padding-top: 1em;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #116466 transparent;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  font-size: smaller;
+}
+
+.dropdown-content a {
+  padding: 8px 10px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #3e8e41;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+
+/***************************** Navbar styles with dropdown toggle */
 
 nav {
   position: absolute;
@@ -539,7 +586,22 @@ footer {
 /*********** Media query: tablets and landscape phones (576px and up) */
 
 @media screen and (min-width: 576px) {
-  nav {
+
+  /************************************* Header */
+  header {
+    background-color: #116466;
+    padding: 0 1.75rem 1.75rem;
+    color: #eceeed;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    box-shadow: 0 2px 2px #3a3a3a;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+    
+    nav {
     display: block;
     position: relative;
     box-shadow: none;
@@ -573,8 +635,50 @@ footer {
     border-bottom: 5px solid #3a3a3a;
   }
 
-  /******************************************* Gallery */
-   #photos {
+  /*********************************************** Nav Sub-menu dropdown  */
+
+  .sub-menu {
+    list-style-type: none;
+  }
+
+  .dropbtn {
+    margin-right: 15px;
+  }
+
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #116466;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    font-size: smaller;
+  }
+
+    .dropdown-content a {
+      padding: 8px 10px;
+      text-decoration: none;
+      display: block;
+    }
+
+      .dropdown-content a:hover {
+        background-color: #3e8e41;
+      }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  .dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+
+    /******************************************* Gallery */
+    #photos {
      column-count: 2;
      column-gap: 0;
    }
@@ -584,10 +688,11 @@ footer {
     /****************** Media query: tablets and larger (768px and up) */
 
 @media screen and (min-width: 768px) {
-        /******************** Header */
+
+        /*********************************** Header */
   header {
     background-color: #116466;
-    padding: 0 1rem;
+    padding: 0 1.75rem 1.75rem;
     color: #eceeed;
     position: fixed;
     z-index: 99;
