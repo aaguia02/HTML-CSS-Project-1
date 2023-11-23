@@ -35,36 +35,41 @@
             </ul>
         </nav>
     </header>
-    <! Main Content -->
+
+    <!-- Main Content -->
     <main>
         <section id="hero"></section>
         <h1>Contact Me</h1>
+        <br>
         <p>Liked my mock website project? Interested in working together? Fill out the form below with some information about your project and let's talk about your website or project. Please allow a day for me to reply.</p>
 
-        <section id="termsandprivacy">
-            <h2 class="contactme2">About me:</h2>
+        <section class="signin">
+            <h2 class="">About me:</h2>
             <br>
             <ul>
-                <li class="contactme2">Based in London, UK.</li>
-                <li class="contactme2">My e-mail is alexkatoyahoo@gmail.com.</li>
-                <li class="contactme2">Easy going, professional, open minded, introvert, so I like to think of myself.</li>
-                <li class="contactme2">Currently studying on the Code Institute's full-stack web development bootcamp at WAES Academy in London, UK. And looking to put in practice what I am learning, getting involved in projects.</li>
+                <p>Based in London, UK.</p>
+                <p>My e-mail is alexkatoyahoo@gmail.com.</p>
+                <p>Easy going, professional, open minded, introvert, so I like to think of myself.</p>
+                <p>Currently studying on the Code Institute's full-stack web development bootcamp at WAES Academy in London, UK. And looking to put in practice what I am learning, getting involved in projects.</p>
             </ul>
             <br>
-
+            <div>
             <form action="https://formdump.codeinstitute.net" method="post">
-                <div>
+                
                     <dl>
                         <dt>Enter Your Email:</dt>
                         <dd><input type="email" class="contactme3" id="email" name="email" required="required" placeholder="Enter your email address ..."></dd>
                         <dt>Enter Your Name:</dt>
-                        <dd><input type="name" class="contactme3" id="fullname" name="fullname" required="required" placeholder="Enter your name ..."></dd>
+                        <dd><input type="text" class="contactme3" id="fullname" name="fullname" required="required" placeholder="Enter your name ..."></dd>
                         <dt>Lets Talk about you:</dt>
-                        <dd><label for="message"><textarea class="contactme3" id="message" name="message" required="required" rows="3" cols="30" placeholder="Enter your message, what is your project, budget, timeframe, etc ..."></textarea></dd>
+                        <dd>
+                            <textarea class="contactme3" id="message" name="message" required="required" rows="3" cols="30" placeholder="Enter your message, what is your project, budget, timeframe, etc ..."></textarea>
+                        </dd>
                     </dl>
-                </div>
-                <input type="submit" id="contactsignin" value="Submit" />
+                
+                <input type="submit" class="inputsubmit" id="contactsignin" value="Submit" />
             </form>
+            </div>
         </section>
 
 
