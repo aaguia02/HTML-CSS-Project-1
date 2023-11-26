@@ -28,6 +28,7 @@ h2 {
   margin-bottom: 0.5em;
   list-style-type: none;
   text-decoration: none;
+  display: ;
 }
 
 p {
@@ -43,53 +44,63 @@ p {
 
 /******************************************* Index Body **/
 
-.indexbody {
+.index-body {
   background: url("../images/alien\ landing.gif") no-repeat center center/cover;
   min-height: 100vh;
-  display: flex;
+  display: inline-block;
   width: 100%;
-  height: fit-content;
+  height: 100%;
   color: rgb(27, 23, 23);
+  align-content: center;
 }
 
 audio {
   opacity: 10%;
-  justify-content: center;
-  bottom: 0%;
-  right: 0%;
   text-decoration: none;
-}
+}}
 
 audio:hover {
-  opacity: 100%;
+  opacity: 50%;
 }
 
 /**************************************** Foreground Text **/
 
-.indextext {
+.text-audio {
+  text-align: center;
+}
+.index-text {
   font-family: "Sedgwick Ave", cursive;
-  font-weight: 800;
+  font-weight: 600;
+  vertical-align: middle;
 }
 
 #image-text {
-  width: 100%;
-  top: 15%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 40px;
-  color: #da7b93;
-  text-shadow: 30px 30px 20px #000000;
-  text-align: center;
-  padding: 0 1rem;
-  position: fixed;
+  font-size: 2em;
+  text-shadow: 30px 30px 15px #000000;
   z-index: 99;
-  align-items: baseline;
-  text-decoration: none;
 }
 
+.blink_text {
+  animation-name: blink;
+  animation-duration: 2s;
+  animation-timing-function: ease-in;
+  animation-iteration-count: Infinite;
+}
+
+@keyframes blink {
+  0% {
+    color: red;
+  }
+  50% {
+    color: white;
+  }
+  100% {
+    color: red;
+  }
+}
 a {
   text-decoration: none;
-  display: inline;
+  color: #eceeed;
 }
 
 /********************************************* Header **/
@@ -115,23 +126,6 @@ header {
 header a {
   text-decoration: none;
   color: #eceeed;
-}
-
-.image-text {
-  color: #eceeed;
-  text-align: center;
-  padding: 0 1rem;
-  position: sticky;
-  z-index: 99;
-  align-items: baseline;
-  text-decoration: none;
-  font-family: "Sedgwick Ave", cursive;
-  font-weight: 600;
-}
-
-a {
-  text-decoration: none;
-  display: inline;
 }
 
 /******************************************** Nav Menu **/
@@ -160,7 +154,7 @@ a {
 .dropdown {
   position: relative;
   display: flex;
-  padding-top: 1em;
+  padding-top: 0.25em;
 }
 
 .dropdown-content {
@@ -606,117 +600,6 @@ footer {
 /******** Media query: tablets and larger (768px and up to 991px) */
 
 @media screen and (min-width: 768px) {
-  /****************************************** Header */
-  header {
-    font-family: "Sedgwick Ave", cursive;
-    font-weight: 600;
-    background-color: #116466;
-    padding-right: 1rem;
-    padding-left: 1rem;
-    padding-bottom: 1.75em;
-    color: #eceeed;
-    position: fixed;
-    z-index: 99;
-    width: 100%;
-    text-shadow: 10px 10px 5px #000000;
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
-    text-decoration: none;
-  }
-
-  header a {
-    text-decoration: none;
-    color: #eceeed;
-  }
-
-  nav {
-    display: block;
-    position: relative;
-    box-shadow: none;
-    width: fit-content;
-    padding-left: 1rem;
-    color: #eceeed;
-  }
-
-  /******************************* Nav Sub-menu dropdown **/
-
-  .sub-menu {
-    list-style-type: none;
-  }
-
-  .dropbtn {
-    margin-right: 15px;
-    padding: 8px 10px;
-  }
-
-  .dropdown {
-    position: relative;
-    display: flex;
-    padding-top: 1em;
-  }
-
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #116466;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-    z-index: 1;
-    font-size: smaller;
-  }
-
-  .dropdown-content a {
-    padding: 8px 10px;
-    text-decoration: none;
-    display: block;
-  }
-
-  .dropdown-content a:hover {
-    background-color: #3e8e41;
-  }
-
-  .dropdown:hover .dropdown-content {
-    display: block;
-  }
-
-  .dropdown:hover .dropbtn {
-    background-color: #3e8e41;
-  }
-
-  .nav-toggle-label {
-    font-size: 1.6rem;
-  }
-
-  .nav-toggle-label {
-    display: none;
-  }
-
-  #menu {
-    display: flex;
-    flex-wrap: wrap;
-  }
-
-  #menu > li {
-    padding-right: 1rem;
-    list-style-type: none;
-  }
-
-  #logo {
-    font-size: 1.4375em;
-    line-height: 75px;
-    margin: 0 0.5rem;
-    list-style-type: none;
-    display: flex;
-    flex-wrap: wrap;
-  }
-
-  /**************************************** Main content */
-  main {
-    /** Push main content down to accommodate larger header */
-    margin-top: 94px;
-  }
-
   /************************************************** Gallery*/
   #photos {
     column-count: 3;
@@ -726,64 +609,6 @@ footer {
 /**** Large devices (laptops and desktops, 992px and up to 1199px) */
 
 @media only screen and (min-width: 992px) {
-  /****************************************** Header */
-  header {
-    font-family: "Sedgwick Ave", cursive;
-    font-weight: 600;
-    background-color: #116466;
-    padding-right: 1rem;
-    padding-left: 1rem;
-    padding-bottom: 1.75em;
-    color: #eceeed;
-    position: fixed;
-    z-index: 99;
-    width: 100%;
-    text-shadow: 10px 10px 5px #000000;
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
-    text-decoration: none;
-  }
-
-  header a {
-    text-decoration: none;
-    color: #eceeed;
-  }
-
-  nav {
-    display: block;
-    position: relative;
-    box-shadow: none;
-    width: fit-content;
-    padding-left: 1rem;
-    color: #eceeed;
-  }
-
-  #menu {
-    display: flex;
-  }
-
-  #menu > li {
-    padding-right: 1rem;
-    list-style-type: none;
-  }
-
-  .nav-toggle-label {
-    font-size: 1.6rem;
-  }
-  .nav-toggle-label {
-    display: none;
-  }
-
-  #logo {
-    font-size: 1.4375em;
-    line-height: 75px;
-    margin: 0 0.5rem;
-    list-style-type: none;
-    display: flex;
-    flex-wrap: wrap;
-  }
-
   /*********************** Gallery */
   #photos {
     column-count: 4;
@@ -793,20 +618,6 @@ footer {
 /**** Large devices (laptops and desktops, 1200px and up) */
 
 @media (min-width: 1200px) {
-  /****************************************** Header */
-  header {
-    background-color: #116466;
-    padding: 0 1.75rem 1.75rem;
-    color: #eceeed;
-    position: fixed;
-    z-index: 99;
-    width: 100%;
-    box-shadow: 0 2px 2px #3a3a3a;
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
-  }
-
   nav {
     display: block;
     position: relative;
@@ -827,14 +638,5 @@ footer {
 
   .nav-toggle-label {
     display: none;
-  }
-
-  #logo {
-    font-size: 1.4375em;
-    line-height: 75px;
-    margin: 0 0.5rem;
-    list-style-type: none;
-    display: flex;
-    flex-wrap: wrap;
   }
 }
