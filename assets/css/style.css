@@ -42,6 +42,82 @@ p {
   max-width: 40rem;
 }
 
+/***************************************** Buttons **/
+
+.button {
+  background-color: #1c87c9;
+  -webkit-border-radius: 60px;
+  border-radius: 60px;
+  border: none;
+  color: #eeeeee;
+  cursor: pointer;
+  display: inline-block;
+  font-family: sans-serif;
+  font-size: 20px;
+  padding: 5px 15px;
+  text-align: center;
+  text-decoration: none;
+}
+@keyframes glowing {
+  0% {
+    background-color: #9e8ec9;
+    box-shadow: 0 0 5px #9e8ec9;
+  }
+  50% {
+    background-color: #8e938d;
+    box-shadow: 0 0 20px #8e938d;
+  }
+  100% {
+    background-color: #1b82b1;
+    box-shadow: 0 0 5px #1b82b1;
+  }
+}
+.button {
+  animation: glowing 1300ms infinite;
+}
+
+/***************************************** Aside Panels **/
+
+.sidebar {
+  background-color: #116466;
+  color: #eceeed;
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 30%;
+  
+  height: 100%;
+  min-height: 250px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  align-items: center;
+  text-align: center;
+  font-size: 1.2rem;
+  justify-content: center;
+}
+
+.sidebar1 {
+  background: url("../images/picardandco.jpeg") no-repeat center center/cover;
+}
+
+.sidebar2 {
+  background: url("../images/a\ href=httpswww.freepik.comfree-ai-imagefuturistic-skyscraper-cityscape-glows-with-blue-spaceship-technology-dusk-generated-by-ai_48663922.htm.jpg") no-repeat center center/cover;
+  
+}
+
+.sidebar3 {
+  background: url("../images/a\ href=httpswww.freepik.comfree-ai-imagedigital-art-moon-buildings-wallpaper_77361700.htm.jpg") no-repeat center center/cover;
+  height: 55vw;
+}
+
+.sidebar4 {
+  background: url("../images/a\ href=httpswww.freepik.comfree-ai-imagedigital-art-moon-buildings-wallpaper_77360654.htm.jpg") no-repeat center center/cover;
+  height: 55vw;
+}
+
 /******************************************* Index Body **/
 
 .index-body {
@@ -100,7 +176,6 @@ audio:hover {
 }
 a {
   text-decoration: none;
-  color: #eceeed;
 }
 
 /********************************************* Header **/
@@ -255,7 +330,7 @@ main {
 
 #signupin {
   align-content: center;
-  overflow: hidden;
+  
   text-align: center;
 }
 
@@ -285,8 +360,8 @@ button#toggle-password {
 }
 
 #registerhere {
-  max-width: 294px;
-  min-width: 280px;
+  max-width: 29px;
+  min-width: 28px;
 }
 
 a {
@@ -593,13 +668,53 @@ footer {
   background-color: #116466;
 }
 
-/* Extra small devices (phones, 576px and down) 
-@media screen and (max-width: 576px) {
-  */
+/********************* Extra small devices (phones, 576px and down)  */
+@media screen and (max-width: 767px) {
+
+ /*********************** sidebars */
+  #container {
+    display: flex;
+    flex-direction: column;
+  }
+  #container > div {
+    flex: 1;
+    width: 150%;
+  }
+
+  .sidebar3 {
+    height: 100vw;
+  }
+  
+  .sidebar4 {
+    
+    height: 100vw;
+  }
+
+  .sidebar {
+    background-color: #116466;
+    color: #eceeed;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 90%;
+    height: 100%;
+    min-height: 250px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    align-items: center;
+    text-align: center;
+    font-size: 1.2rem;
+    justify-content: center;
+  }
+  
+}
 
 /******** Media query: tablets and larger (768px and up to 991px) */
 
-@media screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) {
   /************************************************** Gallery*/
   #photos {
     column-count: 3;
@@ -609,15 +724,7 @@ footer {
 /**** Large devices (laptops and desktops, 992px and up to 1199px) */
 
 @media only screen and (min-width: 992px) {
-  /*********************** Gallery */
-  #photos {
-    column-count: 4;
-  }
-}
-
-/**** Large devices (laptops and desktops, 1200px and up) */
-
-@media (min-width: 1200px) {
+  /*********************** nav bar */
   nav {
     display: block;
     position: relative;
@@ -639,4 +746,41 @@ footer {
   .nav-toggle-label {
     display: none;
   }
+ 
+  /*********************** Gallery */
+  #photos {
+    column-count: 4;
+  }
 }
+
+/**** Large devices (laptops and desktops, 1200px and up) */
+
+@media only (min-width: 1200px) {
+ /*********************** nav bar */
+  nav {
+    display: block;
+    position: relative;
+    box-shadow: none;
+    width: fit-content;
+    padding-left: 1rem;
+    color: #eceeed;
+  }
+
+  #menu {
+    display: flex;
+  }
+
+  #menu > li {
+    padding-right: 1rem;
+    list-style-type: none;
+  }
+
+  .nav-toggle-label {
+    display: none;
+  }
+
+
+
+
+}
+
