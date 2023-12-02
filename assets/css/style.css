@@ -100,22 +100,28 @@ p {
 /********************** Sign-in Page */
 .sidebar1 {
   background: url("../images/picardandco.jpeg") no-repeat center center/cover;
+  margin-bottom: 15px;
+  margin-top: 20px;
 }
 
 .sidebar2 {
   background: url("../images/a\ href=httpswww.freepik.comfree-ai-imagefuturistic-skyscraper-cityscape-glows-with-blue-spaceship-technology-dusk-generated-by-ai_48663922.htm.jpg") no-repeat center center/cover;
-  
+  margin-bottom: 15px;
+  margin-top: 20px;
 }
 /****************** Registration Page */
 .sidebar3 {
   background: url("../images/space-theme-vintage-poster-design-with-illustration-spaceship.jpg") no-repeat center center/cover;
   height: 55vw;
   margin-bottom: 15px;
+  margin-top: 20px;
 }
 
 .sidebar4 {
   background: url("../images/vintage-colored-mars-discovery-poster.jpg") no-repeat center center/cover;
   height: 55vw;
+  margin-bottom: 15px;
+  margin-top: 20px;
 }
 /****************** Contact Page */
 .sidebar5 {
@@ -358,7 +364,6 @@ main {
 
 #signupin {
   align-content: center;
-  
   text-align: center;
 }
 
@@ -742,16 +747,26 @@ footer {
 
 /******** Media query: tablets and larger (768px and up to 991px) */
 
-@media only screen and (min-width: 768px) {
+@media screen and (max-width: 768px) {
   /************************************************** Gallery*/
   #photos {
     column-count: 3;
+  }
+  table {
+    display: table;
+    position:static;
+    max-width: 150px;
+    max-height: 55px;
+    align-self: center;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom: 15px;
   }
 }
 
 /**** Large devices (laptops and desktops, 992px and up to 1199px) */
 
-@media only screen and (min-width: 992px) {
+@media screen and (min-width: 992px) {
   /*********************** nav bar */
   nav {
     display: block;
@@ -779,15 +794,25 @@ footer {
   #photos {
     column-count: 4;
   }
+  table {
+    display: table;
+    position:static;
+    max-width: 150px;
+    max-height: 55px;
+    align-self: center;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom: 15px;
+  }
 }
 
 /**** Large devices (laptops and desktops, 1200px and up) */
 
-@media only (min-width: 1200px) {
+@media screen (min-width: 1200px) {
  /*********************** nav bar */
   nav {
     display: block;
-    position: relative;
+    position : relative;
     box-shadow: none;
     width: fit-content;
     padding-left: 1rem;
@@ -808,4 +833,3 @@ footer {
   }
 
 }
-
