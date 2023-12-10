@@ -19,8 +19,7 @@ body {
   background-color: #eceeed;
 }
 
-h1,
-h2 {
+h1, h2 {
   text-transform: uppercase;
   letter-spacing: 1px;
   text-align: center;
@@ -58,20 +57,24 @@ p {
   text-align: center;
   text-decoration: none;
 }
+
 @keyframes glowing {
   0% {
     background-color: #9e8ec9;
     box-shadow: 0 0 5px #9e8ec9;
   }
+
   50% {
     background-color: #4b0082;
     box-shadow: 0 0 20px #4b0082;
   }
+
   100% {
     background-color: #1b82b1;
     box-shadow: 0 0 5px #1b82b1;
   }
 }
+
 .button {
   animation: glowing 1300ms infinite;
 }
@@ -85,7 +88,7 @@ p {
   border-radius: 10px;
   width: 100%;
   max-width: 30%;
-  
+
   height: 100%;
   min-height: 250px;
   display: flex;
@@ -97,7 +100,8 @@ p {
   font-size: 1.2rem;
   justify-content: center;
 }
-/********************** Sign-in Page */
+
+/**************************************** Sign-in Page */
 .sidebar1 {
   background: url("../images/picardandco.jpeg") no-repeat center center/cover;
   margin-bottom: 15px;
@@ -109,7 +113,8 @@ p {
   margin-bottom: 15px;
   margin-top: 20px;
 }
-/****************** Registration Page */
+
+/************************************* Registration Page */
 .sidebar3 {
   background: url("../images/space-theme-vintage-poster-design-with-illustration-spaceship.jpg") no-repeat center center/cover;
   height: 55vw;
@@ -123,7 +128,8 @@ p {
   margin-bottom: 15px;
   margin-top: 20px;
 }
-/****************** Contact Page */
+
+/************************************* Contact Page */
 .sidebar5 {
   background: url("../images/spaceship-3758424_1280.jpg") no-repeat center center/cover;
   max-height: 75vw;
@@ -137,7 +143,8 @@ p {
   min-height: 30vw;
   margin-top: 20px;
 }
-/****************** Trivia Page */
+
+/**************************************** Trivia Page */
 .sidebar7 {
   background: url("../images/merchandise.jpeg") no-repeat center center/cover;
   height: 55vw;
@@ -147,11 +154,6 @@ p {
   background: url("../images/star-wars-pexels-craig-adderley-3526022.jpg") no-repeat center center/cover;
   height: 55vw;
 }
-
-/******************************************* Main Body **/
-
-
-
 
 /******************************************* Index Body **/
 
@@ -168,7 +170,8 @@ p {
 audio {
   opacity: 10%;
   text-decoration: none;
-}}
+}
+}
 
 audio:hover {
   opacity: 50%;
@@ -179,6 +182,7 @@ audio:hover {
 .text-audio {
   text-align: center;
 }
+
 .index-text {
   font-family: "Sedgwick Ave", cursive;
   font-weight: 600;
@@ -202,13 +206,16 @@ audio:hover {
   0% {
     color: red;
   }
+
   50% {
     color: white;
   }
+
   100% {
     color: red;
   }
 }
+
 a {
   text-decoration: none;
 }
@@ -246,7 +253,7 @@ header a {
   list-style-type: none;
 }
 
-#menu > li {
+#menu>li {
   margin-bottom: 2em;
 }
 
@@ -311,7 +318,7 @@ nav {
 
 /***************************************** Nav toggle **/
 
-#nav-toggle:checked ~ nav {
+#nav-toggle:checked~nav {
   display: block;
 }
 
@@ -358,6 +365,14 @@ main {
   background-color: #eceeed;
   height: 100%;
   width: 50%;
+  
+}
+
+#container3 {
+  background-color: #eceeed;
+  height: 100%;
+  width: 50%;
+  padding-top: 25px
 }
 
 /****************************** Sign-in and Sign-up Page */
@@ -563,7 +578,7 @@ td {
   transition: opacity 0.3s ease;
 }
 
-td > span {
+td>span {
   font-size: 0.8em;
   font-weight: normal;
   display: block;
@@ -634,7 +649,7 @@ th {
   list-style-type: none;
 }
 
-#termsandprivacy > h2 {
+#termsandprivacy>h2 {
   letter-spacing: 1px;
   font-weight: 600;
   overflow: hidden;
@@ -645,6 +660,7 @@ th {
 .termsandconditions {
   list-style-type: none;
 }
+
 /******************************************* Gallery Page */
 #photos img {
   width: 100%;
@@ -704,12 +720,13 @@ footer {
 /********************* Extra small devices (phones, 576px and down)  */
 @media screen and (max-width: 767px) {
 
- /*********************** sidebars */
+  /*********************** sidebars */
   #container {
     display: flex;
     flex-direction: column;
   }
-  #container > div {
+
+  #container>div {
     flex: 1;
     width: 150%;
   }
@@ -717,9 +734,9 @@ footer {
   .sidebar3 {
     height: 100vw;
   }
-  
+
   .sidebar4 {
-    
+
     height: 100vw;
   }
 
@@ -742,24 +759,26 @@ footer {
     font-size: 1.2rem;
     justify-content: center;
   }
-  
+
 }
 
 /******** Media query: tablets and larger (768px and up to 991px) */
 
 @media screen and (max-width: 768px) {
+
   /************************************************** Gallery*/
   #photos {
     column-count: 3;
   }
+
   table {
     display: table;
-    position:static;
+    position: static;
     max-width: 150px;
     max-height: 55px;
     align-self: center;
-    margin-left:auto;
-    margin-right:auto;
+    margin-left: auto;
+    margin-right: auto;
     margin-bottom: 15px;
   }
 }
@@ -767,6 +786,7 @@ footer {
 /**** Large devices (laptops and desktops, 992px and up to 1199px) */
 
 @media screen and (min-width: 992px) {
+
   /*********************** nav bar */
   nav {
     display: block;
@@ -781,7 +801,7 @@ footer {
     display: flex;
   }
 
-  #menu > li {
+  #menu>li {
     padding-right: 1rem;
     list-style-type: none;
   }
@@ -789,19 +809,20 @@ footer {
   .nav-toggle-label {
     display: none;
   }
- 
+
   /*********************** Gallery */
   #photos {
     column-count: 4;
   }
+
   table {
     display: table;
-    position:static;
+    position: static;
     max-width: 150px;
     max-height: 55px;
     align-self: center;
-    margin-left:auto;
-    margin-right:auto;
+    margin-left: auto;
+    margin-right: auto;
     margin-bottom: 15px;
   }
 }
@@ -809,10 +830,11 @@ footer {
 /**** Large devices (laptops and desktops, 1200px and up) */
 
 @media screen (min-width: 1200px) {
- /*********************** nav bar */
+
+  /*********************** nav bar */
   nav {
     display: block;
-    position : relative;
+    position: relative;
     box-shadow: none;
     width: fit-content;
     padding-left: 1rem;
@@ -823,7 +845,7 @@ footer {
     display: flex;
   }
 
-  #menu > li {
+  #menu>li {
     padding-right: 1rem;
     list-style-type: none;
   }
