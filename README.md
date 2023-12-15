@@ -17,71 +17,73 @@ Features to be added 1) Forum with ability to upload content with comments 2) Me
 
 \*\*To be implemented in future release with javascript.
 
+https://aaguia02.github.io/HTML-CSS-Project-1/
+
 ### Screenshot
 
 #### Planning:
 
 - **Tecnical Requirements:**
 
-![Planning 1](/assets/images/Screenshot%202023-12-11%20112052.png)
+![Planning 1](images/Screenshot%202023-12-11%20112052.png)
 
 - **Website Structure:**
 
-![Planning 2](/assets/images/Screenshot%202023-12-11%20113613.png)
+![Planning 2](images/Screenshot%202023-12-11%20113613.png)
 
 #### Wireframe:
 
 - **Landing and Home** pages Wireframe:
 
-![Wireframe](/assets/images/Wireframe%20Landing%20&%20Home.png)
+![Wireframe](images/Wireframe%20Landing%20&%20Home.png)
 
 - **Gallery and Contact** pages Wireframe:
 
-![Wireframe](/assets/images/Wireframe%20Gallery%20Contact.png)
+![Wireframe](images/Wireframe%20Gallery%20Contact.png)
 
 - **Sign-in and Terms and Conditions** pages Wireframe:
-  ![Wireframe](/assets/images/Wireframe%20signin%20T&C.png)
+  ![Wireframe](images/Wireframe%20signin%20T&C.png)
 
 - **Privacy Policy and Registration** pages Wireframe:
-  ![Wireframe](/assets/images/Wireframe%20Privacy%20registration.png)
+  ![Wireframe](images/Wireframe%20Privacy%20registration.png)
 
 #### Website:
 
 - **Landing page** with GIF as background, and music player control (transparent until hover over it) in auto-play mute as per html stardard practice, just below the "Enter to my Sci-fi Space" link.
 
-![Website - Landing](/assets/images/Screenshot%201%20landing%20page.png)
+![Website - Landing](images/Screenshot%201%20landing%20page.png)
 
 - **Home Page** with links to other pages and "My Sfi-fi Space" linked to landing page. Contains Brief introduction and a video.
 
-![Website - HOME](/assets/images/Screenshot%20Home.png)
+![Website - HOME](images/Screenshot%20Home.png)
 
 - **Trivia** with Sci-fi related events schedule for Summer 2024.
 
-![Website - Trivia](/assets/images/Screenshot%20Trivia.png)
+![Website - Trivia](images/Screenshot%20Trivia.png)
 
 - **Gallery** with images Sci-fi related.
 
-![Website - Gallery](/assets/images/Screenshot%20Gallery.png)
+![Website - Gallery](images/Screenshot%20Gallery.png)
 
 - **Sign-in** for future back-end development. Front-end fully functional linked to Code Institute's server to confirm receipt of data.
 
-![Website - Sign-in](/assets/images/Screenshot%20%20sign-in.png)
+![Website - Sign-in](images/Screenshot%20%20sign-in.png)
 
 - **Regitration Form** for future back-end development. Front-end fully functional linked to Code Institute's server to confirm receipt of data.
 
-![Website - Registration](/assets/images/Screenshot%20registration.png)
+![Website - Registration](images/Screenshot%20registration.png)
 
 - **Terms and Conditions** Generic website usage terms and conditions.
 
-![Website - T&C](/assets/images/Screenshot%20T&C.png)
+![Website - T&C](images/Screenshot%20T&C.png)
 
 - **Privacy Policy** Generic website usage privacy policy.
 
-![Website - Privacy Policy](/assets/images/Screenshot%20Privacy%20Policy.png)
+![Website - Privacy Policy](images/Screenshot%20Privacy%20Policy.png)
 
 - **Contact Page** Brief disclaimer, introduction, and contact form. Front-end fully functional linked to Code Institute's server to confirm receipt of data.
 
-![Website - Contact](/assets/images/Screenshot%20Contact.png)
+![Website - Contact](images/Screenshot%20Contact.png)
 
 ## Technologies
 

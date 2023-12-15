@@ -1,4 +1,4 @@
 {
   "liveServer.settings.port": 5501,
-  "livePreview.defaultPreviewPath": "/assets/home.html"
+  "livePreview.defaultPreviewPath": "home.html"
 }
