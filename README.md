@@ -11,8 +11,7 @@
 
 ---
 
-
-"My Sci-fi Space" is an intuitive, informational, and entertainment intended hobby website. It has been create for all science fiction lovers out there to find out some information of sci-fi, and invites user interactive participation by offering registration, member-only area sign-in \*\*for the opportunity to upload their own creations to showcase in the site. Users will alsobe able to interact by answering a short survey and giving feedback on each others contributions. Their contributions could be short-stories, short-films, image arts, etc optional comment area will be located under their submissions. Sci-fi enthusiasts will also find more links to other websites sci-fi related. Overall, the purpose and value for the user is to be entertained and have fun.  
+"My Sci-fi Space" is an intuitive, informational, and entertainment intended hobby website. It has been create for all science fiction lovers to find out some information on sci-fi events, and invites user interactive participation by offering registration, member-only area sign-in \*\*for the opportunity to upload their own creations to showcase in the site. Users will alsobe able to interact by answering a short survey and giving feedback on each others contributions. Their contributions could be short-stories, short-films, image arts, etc optional comment area will be located under their submissions. Sci-fi enthusiasts will also find more links to other websites sci-fi related. Overall, the purpose and value for the user is to be entertained and have fun.  
 My intention on creating this website is to showcase HTML and CSS and related skills acquired while participating on WAES/Code Institure Full Stack Web Development Bootcamp. The first of three projects schedule in order to complete the bootcamp. This initial project is focused on HTML and CSS skill set.
 I have not had the time to make all pages fully responsive, which is the case of 'Trivia' Page due to the table content.
 Features to be added 1) Forum with ability to upload content with comments 2) Members only area with ability to comments on members upload. As I intend to basic HTML and CSS website on the second project using JavaScrip to make it fully interactive.
@@ -22,6 +21,7 @@ Features to be added 1) Forum with ability to upload content with comments 2) Me
 https://aaguia02.github.io/HTML-CSS-Project-1/
 
 ### Screenshot
+
 ---
 
 #### Planning:
@@ -88,7 +88,6 @@ https://aaguia02.github.io/HTML-CSS-Project-1/
 
 ![Website - Contact](/assets/images/Screenshot%20Contact.png)
 
-
 ## Technologies
 
 ---
@@ -108,62 +107,39 @@ A list of technologies used within the project:
 - [Figma](https://code.visualstudio.com/): Version Educational
 - [MatchWare MindView](https://www.mindviewonline.com/map): Version 8.0 64-bit
 
-
-
 ## Project status
 
 ---
 
-Project 1 is completed,  being HTML5 and CSS only requirements. Further developement will be done in the form of Project 2, which will add JavaScript for further functionality.
+Project 1 is completed, being HTML5 and CSS only requirements. Further developement will be done in the form of Project 2, which will add JavaScript for further functionality.
+
 > user interactive participation by offering registration, member-only area sign-in \*\*for the opportunity to upload their own creations to showcase in the site. Users will alsobe able to interact by answering a short survey and giving feedback on each others contributions.
 
 ## Deployment
 
 ---
 
-A little intro about the installation.
+I am using Github as version control, as such, I have enabled GitHub Pages to deploy the website as I push commits to master branch. There were 79 deployments. Please see link below:
 
-```
-$ git clone https://example.com
-$ cd ../path/to/the/file
-$ npm install
-$ npm start
-```
-
-Side information: To use the application in a special environment use `lorem ipsum` to start
-
----
-
-Give instructions on how to collaborate with your project.
-
-> Maybe you want to write a quote in this part.
-> Should it encompass several lines?
-> This is how you do it.
+> https://aaguia02.github.io/HTML-CSS-Project-1/index.html
 
 ## Contact Information
 
 ---
 
-A list of frequently asked questions
-
-1. **This is a question in bold**
-   Answer to the first question with _italic words_.
-2. **Second question in bold**
-   To answer this question, we use an unordered list:
-
-- First point
-- Second Point
-- Third point
-
-3. **Third question in bold**
-   Answer to the third question with _italic words_.
-4. **Fourth question in bold**
-   | Headline 1 in the tablehead | Headline 2 in the tablehead | Headline 3 in the tablehead |
-   |:--------------|:-------------:|--------------:|
-   | text-align left | text-align center | text-align right |
+Alexandre Kato at alexkato@yahoo.com
 
 ## Acknowledgments
 
 ---
 
-- [Dropwizard](https://www.freecodecamp.org/news/how-to-write-a-good-readme-file/) - The web framework used
+- [Dropwizard](https://www.freecodecamp.org/news/how-to-write-a-good-readme-file/) - How to write a good README file.
+- https://learn.codeinstitute.net/
+- https://www.freecodecamp.org
+- https://www.w3schools.com/tags/default.asp
+- https://developer.mozilla.org/en-US/
+- https://www.googlefonts.com
+- https://www.fontawesome.com
+- https://www.freepik.com
+- https://www.figma.com
+- Audio: lets the game begin
