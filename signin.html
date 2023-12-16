@@ -14,11 +14,11 @@
     <!-- Favicon -->
     <link
       rel="shortcut icon"
-      href="/assets\images\favicon\favicon.png"
+      href="/assets/images/favicon/favicon.png"
       type="image/x-icon"
     />
     <!-- Stylesheet  -->
-    <link rel="stylesheet" href="/assets\css\style.css" />
+    <link rel="stylesheet" href="/assets/css/style.css" />
   </head>
 
   <body>
@@ -33,85 +33,118 @@
       >
         <i class="fa-solid fa-bars"></i>
       </label>
-     <nav>
-            <ul id="menu">
-              <div class="dropdown">
-                <li class="dropbtn"><a href="home.html" class="active">Home</a></li></div>
-                <div class="dropdown">
-                <li class="dropbtn"><a href="trivia.html">Trivia</a></li></div>
-                <div class="dropdown">
-                <li class="dropbtn"><a href="gallery.html">Gallery</a></li></div>
-                  <div class="dropdown">
-                <li class="dropbtn"><a href="signin.html">Sign-in</a>
-                  <div class="dropdown-content">
-                  <ul class="sub-menu">
-                    <li><a href="registration-form.html"> Registration Form</a></li>
-                    <li><a href="termsandconditions.html"> Terms and Conditions</a></li>
-                    <li><a href="privacypolicy.html">Privacy Policy</a></li>
-                  </ul></li>
-                  </div>
-                  </div>
-                  <div class="dropdown">
-                <li class="dropbtn"><a href="contact.html">Contact</a></li></div>
-            </ul>
-        </nav>
+      <nav>
+        <ul id="menu">
+          <div class="dropdown">
+            <li class="dropbtn"><a href="home.html" class="active">Home</a></li>
+          </div>
+          <div class="dropdown">
+            <li class="dropbtn"><a href="trivia.html">Trivia</a></li>
+          </div>
+          <div class="dropdown">
+            <li class="dropbtn"><a href="gallery.html">Gallery</a></li>
+          </div>
+          <div class="dropdown">
+            <li class="dropbtn">
+              <a href="signin.html">Sign-in</a>
+              <div class="dropdown-content">
+                <ul class="sub-menu">
+                  <li>
+                    <a href="registration-form.html"> Registration Form</a>
+                  </li>
+                  <li>
+                    <a href="termsandconditions.html"> Terms and Conditions</a>
+                  </li>
+                  <li>
+                    <a href="privacypolicy.html">Privacy Policy</a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+          </div>
+          <div class="dropdown">
+            <li class="dropbtn"><a href="contact.html">Contact</a></li>
+          </div>
+        </ul>
+      </nav>
     </header>
 
     <!-- Main Content -->
     <main>
       <section id="hero"></section>
-      
 
-    <div id="container">
-        
-      <aside class="sidebar sidebar1">
-        
-      </aside>
+      <div id="container">
+        <aside class="sidebar sidebar1"></aside>
 
-      <section id="signupin">
-        <h1>Sign-in</h1>
-        <fieldset class="signin">
-         <div class="signin">
-                                     
-            <form action="https://formdump.codeinstitute.net" id="signin-form" method="post">
-            
+        <section id="signupin">
+          <h1>Sign-in</h1>
+          <fieldset class="signin">
+            <div class="signin">
+              <form
+                action="https://formdump.codeinstitute.net"
+                id="signin-form"
+                method="post"
+              >
                 <div class="">
-                <label for="email_signin">Email address:</label>
-                <input type="email" name="email signin" id="email_signin" required class="text-input" placeholder="email@example.com">
-              </div>
-              <div class="form-group">
-                <label for="password">Password:</label>
-                <input type="password" id="password" placeholder="Enter your password ..." autocomplete="current-password" required class="text-input">
-                <button
-                id="toggle-password"
-                type="button"
-                aria-label="Show password as plain text. Warning: this will display your password on the screen."
-              ><i class="fa-solid fa-eye"></i></button>
-              </div>
-              
-               <span> <input type="checkbox" class="rememberme" id="checkbox2"></span>
-                <span><label class="rememberme2" for="checkbox2">Remember me</label></span>
-              
-                <input type="submit" value="Make It So!" class="inputsubmit button"/>
-           
-        <div>
-            <a class="signin" href="registration-form.html">New around here? Sign up</a>
-        </div>
-        <div>
-            <a class="" href="#">Forgot password?</a>
-        </div>
-        </form>
-          </div>
+                  <label for="email_signin">Email address:</label>
+                  <input
+                    type="email"
+                    name="email signin"
+                    id="email_signin"
+                    required
+                    class="text-input"
+                    placeholder="email@example.com"
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="password">Password:</label>
+                  <input
+                    type="password"
+                    id="password"
+                    placeholder="Enter your password ..."
+                    autocomplete="current-password"
+                    required
+                    class="text-input"
+                  />
+                  <button
+                    id="toggle-password"
+                    type="button"
+                    aria-label="Show password as plain text. Warning: this will display your password on the screen."
+                  >
+                    <i class="fa-solid fa-eye"></i>
+                  </button>
+                </div>
 
- </fieldset>
-      </section>
+                <span>
+                  <input type="checkbox" class="rememberme" id="checkbox2"
+                /></span>
+                <span
+                  ><label class="rememberme2" for="checkbox2"
+                    >Remember me</label
+                  ></span
+                >
 
-      <aside class="sidebar sidebar2">
-        
-      </aside>
+                <input
+                  type="submit"
+                  value="Make It So!"
+                  class="inputsubmit button"
+                />
 
-    </div>
+                <div>
+                  <a class="signin" href="registration-form.html"
+                    >New around here? Sign up</a
+                  >
+                </div>
+                <div>
+                  <a class="" href="#">Forgot password?</a>
+                </div>
+              </form>
+            </div>
+          </fieldset>
+        </section>
 
+        <aside class="sidebar sidebar2"></aside>
+      </div>
     </main>
     <!-- Footer -->
     <footer>
